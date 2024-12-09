@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+pageClass: intro
+---
+
+<article class="blog container">
+  {% include "header-blog.njk" %}
+  <section class="listing">
+    <h1>Writing</h1>
+    <h2 class='listing__intro'>
+      <em>Psst, psst&hellip;</em> visit <a data-sonnet-event='click:untested alert' href="">random stuff's</a> 
+      for notes, experiments and shayri.</h2>
+    <ul class='listing__posts'>
+      {%- for page in collections.post | reverse-%}
+        {% if (page.data.hidden != true) %}
+          <li class='listing__post'>
+            <a class='listing__post-link' href="{{ page.url }}">{{ page.data.title }}</a>
+            <time class='listing__post-time' datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
+          </li>
+        {% endif %}
+      {%- endfor -%}
+      <li class='listing__post'>
+        <a  class='listing__post-link' target="_blank" href="https://medium.com/@theweeklyroundup">Archive (medium.com)</a>
+      </li>
+    </ul>
+    <hr>
+  </section>
+</article>

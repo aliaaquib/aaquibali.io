@@ -1,0 +1,19 @@
+# dependecies installed by npm
+/node_modules
+
+# build artefacts
+/dist
+/src/site/_includes/css
+
+/src/site/images/opt
+/.cache
+
+# secrets and errors
+.env
+/yarn-error.log
+
+# macOS related files
+.DS_Store
+.AppleDouble
+.LSOverride
+.vercel

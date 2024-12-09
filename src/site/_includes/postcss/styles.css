@@ -1,0 +1,49 @@
+@import '_libs.css';
+@import '_variables.css';
+@import '_reset.css';
+@import '_utils.css';
+
+@import '_intro-header.css';
+@import '_intro.css';
+@import '_blog.css';
+@import '_blog-header.css';
+@import '_listing.css';
+@import '_post.css';
+@import '_footnotes.css';
+@import '_sharing.css';
+@import '_note-card.css';
+@import '_projects.css';
+@import '_syntax.css';
+
+html {
+    font-size: var(--font-size);
+    line-height: var(--ru);
+    background-color: var(--color-bg);
+}
+
+body {
+    font-family: var(--font-body);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+
+    color: var(--color-text);
+    background-color: var(--color-bg);
+}
+
+main {
+    min-height: 100vh;
+}
+
+.wrapper {
+    padding: var(--page-margin);
+    @media all and (min-width: 400px) {
+        --page-margin: var(--page-margin-mid);
+    }
+}
+
+::selection {
+    color: var(--color-bg);
+    background: var(--color-text);
+}

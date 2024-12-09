@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+pageClass: posts
+templateEngineOverride: njk, md
+---
+{% include "header-blog.njk" %}
+<div class="container container--full">
+  
+<article class="post">
+  <header class="post__header">
+    {%- if heroURL %}{% pic heroURL, title %}{% endif %}
+    <time class='post__time' datetime="{{ date }}">{{ date | dateDisplay }}</time>
+    <h1 class='post__title'>{{ title }}</h1>
+    {%- if subtitle %}
+    <p class="post__subtitle">{{ subtitle | safe }}</p>
+    {% endif %}
+  </header>
+  <div class="post__content">
+    {{ content | safe }}
+  </div>
+</article>
+<aside class="sharing">
+
+Did you enjoy the article? Then **subscribe to my mailing list** to receive more content like this:
+
+  <div class='sharing__email'>
+    <script async data-uid="af1fc0f370" src="https://rafal.ck.page/af1fc0f370/index.js"></script>
+  </div>
+
+  You can also <a href='https://rafal.ck.page/products/tip'>buy me a coffee</a>,  <a href='/feed.xml'>subscribe via RSS</a>, or <a href='/posts/hi'>say&nbsp;hi</a>.
+</aside>
+{% footnotes %} 
+<nav class='post__nav'><a href='/blog'>Go back to all posts</a></nav>
+</div>

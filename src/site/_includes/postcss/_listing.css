@@ -1,0 +1,119 @@
+.listing {
+    --listing-width: 40rem;
+
+    text-align: center;
+
+    ul {
+        margin: 0 auto calc(var(--ru) * 2rem);
+        padding: 0;
+        list-style: none;
+        max-width: var(--listing-width);
+    }
+
+    h1 {
+        font-size: 4rem;
+        line-height: calc(var(--ru) * 4rem);
+        margin: 0 0 calc(var(--ru) * 2rem);
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__intro {
+        font-weight: 400;
+        padding: calc(var(--ru) * 2rem) 0;
+        text-align: center;
+        display: block;
+        border-top: 1px solid var(--color-text-fade);
+        border-bottom: 1px solid var(--color-text-fade);
+        position: relative;
+
+        background-color: var(--color-bg);
+        color: var(--color-text);
+        font-size: 1.5rem;
+        line-height: calc(var(--ru) * 1.5rem);
+        margin: calc(var(--ru) * 2rem) 0 calc(var(--ru) * 3rem);
+
+        &::after {
+            content: '';
+            background: var(--color-bg) url(/images/janusz_separator.png);
+            background-size: cover;
+            width: 4rem;
+            height: 4rem;
+            display: block;
+            position: absolute;
+            padding: 0 0.25rem;
+            top: calc(var(--ru) * -1.31rem);
+            left: 50%;
+            transform: translateX(-50%);
+            font-style: normal;
+        }
+        a {
+            color: var(--color-text);
+            font-weight: 600;
+            font-style: italic;
+        }
+    }
+
+    &__post {
+        margin-bottom: calc(var(--ru) * 2rem);
+        text-align: left;
+        overflow: visible;
+    }
+
+    &__post-link {
+        font-size: 3rem;
+        line-height: calc(var(--ru) * 2rem);
+        color: var(--color-text);
+        display: block;
+        word-break: break-word;
+        text-decoration: none;
+        font-weight: 600;
+        &:hover,
+        &:active {
+            color: var(--color-link);
+        }
+    }
+
+    &__post-time {
+        font-size: 1.5rem;
+        line-height: calc(var(--ru) * 2rem);
+        opacity: 0.6;
+        font-family: var(--font-secondary);
+    }
+
+    hr {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        border: none;
+        font-size: 3rem;
+        line-height: calc(var(--ru) * 3rem);
+        height: calc(var(--ru) * 3rem);
+        &::after {
+            content: '❦';
+        }
+    }
+
+    @media all and (min-width: $screen-narrow) {
+        text-align: left;
+
+        & {
+            max-width: var(--listing-width);
+            margin: 0 auto;
+        }
+
+        &--wide {
+            --listing-width: 50rem;
+        }
+
+        h1 {
+            font-size: 8rem;
+            line-height: calc(var(--ru) * 10rem);
+            text-align: center;
+        }
+
+        ul {
+            margin: 0 0 calc(var(--ru) * 4rem);
+        }
+    }
+}

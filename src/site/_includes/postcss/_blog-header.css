@@ -1,0 +1,218 @@
+.blog-header {
+    line-height: calc(var(--ru) * 2rem);
+    font-size: 1.25rem;
+    padding: 0;
+    margin-bottom: calc(var(--ru) * 2rem);
+
+    &__logo {
+        display: block;
+        height: 3rem;
+        width: 5rem;
+        background: url(/images/logo.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        opacity: 0.9;
+    }
+
+    a {
+        color: var(--color-body);
+
+        font-family: var(--font-secondary);
+        text-decoration: none;
+        font-weight: 600;
+
+        @media (hover: hover) {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        &:hover,
+        &:active {
+            color: var(--color-link);
+        }
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    @media all and (max-width: $screen-narrow) {
+        & {
+            position: sticky;
+            top: 0;
+            margin-inline: calc(var(--page-margin) * -1);
+            padding: 0 var(--page-margin);
+            z-index: 10;
+
+            background-color: var(--color-bg);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            left: 0;
+            right: 0;
+            bottom: -2rem;
+            height: 2rem;
+            background-image: linear-gradient(
+                to bottom,
+                hsl(0, 100%, 98%) 0%,
+                hsla(0, 100%, 98%, 0.971) 9.2%,
+                hsla(0, 100%, 98%, 0.927) 17.4%,
+                hsla(0, 100%, 98%, 0.869) 24.7%,
+                hsla(0, 100%, 98%, 0.8) 31.3%,
+                hsla(0, 100%, 98%, 0.723) 37.3%,
+                hsla(0, 100%, 98%, 0.639) 42.8%,
+                hsla(0, 100%, 98%, 0.552) 48.1%,
+                hsla(0, 100%, 98%, 0.463) 53.3%,
+                hsla(0, 100%, 98%, 0.375) 58.6%,
+                hsla(0, 100%, 98%, 0.29) 64.1%,
+                hsla(0, 100%, 98%, 0.211) 69.9%,
+                hsla(0, 100%, 98%, 0.14) 76.3%,
+                hsla(0, 100%, 98%, 0.08) 83.3%,
+                hsla(0, 100%, 98%, 0.032) 91.1%,
+                hsla(0, 100%, 98%, 0) 100%
+            );
+        }
+
+        nav {
+            font-size: 2rem;
+            line-height: 2;
+            list-style: none;
+            margin: 0;
+            position: fixed;
+            inset: 0;
+            padding: var(--page-margin);
+            background-color: var(--color-bg);
+
+            display: grid;
+            place-content: center;
+            place-items: center;
+
+            gap: 1rem;
+
+            z-index: 10;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+
+            & .blog-header__logo {
+                position: absolute;
+                top: var(--page-margin);
+                left: var(--page-margin);
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                align-items: center;
+            }
+        }
+
+        &.is-visible nav {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .blog-header__menu {
+            position: fixed;
+            inset: 0;
+            background-color: var(--color-bg-fade);
+            backdrop-filter: blur(1px);
+            display: grid;
+            grid-template-rows:
+                3rem
+                repeat(auto-fit, minmax(min-content, 1fr))
+                3rem;
+            align-content: center;
+            justify-items: center;
+            gap: 1rem;
+            z-index: 10;
+        }
+
+        .hide-menu {
+            position: absolute;
+            bottom: var(--page-margin);
+            right: var(--page-margin);
+
+            color: inherit;
+
+            border: none;
+            background: none;
+            padding: 0;
+            margin: 0;
+            font-size: 3rem;
+            display: inline-block;
+            width: 3rem;
+            height: 3rem;
+            line-height: 3rem;
+            cursor: pointer;
+
+            &::after {
+                content: '×';
+            }
+        }
+
+        .show-menu {
+            display: inline-block;
+            background: none;
+            border: none;
+            font-size: 2rem;
+            padding: 0;
+            color: inherit;
+            font-style: italic;
+            font-weight: 600;
+        }
+    }
+
+    @media all and (min-width: $screen-narrow) {
+        max-width: 80rem;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__logo {
+            a {
+                height: 4rem;
+                width: 8rem;
+            }
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 1rem;
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+                align-items: center;
+            }
+
+            li a {
+                padding-inline: 1rem;
+            }
+        }
+
+        nav &__logo {
+            display: none;
+        }
+
+        .hide-menu,
+        .show-menu {
+            display: none;
+        }
+    }
+}

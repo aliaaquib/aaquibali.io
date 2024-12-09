@@ -1,0 +1,204 @@
+.intro {
+    /* line-height: calc(var(--ru) * 1rem); */
+    display: flex;
+    flex-direction: column;
+
+    &__decor {
+        display: none;
+        order: 10;
+    }
+
+    &__header {
+        order: 1;
+        text-align: center;
+        h1 {
+            font-size: calc(3.8rem);
+            line-height: calc(var(--ru) * 3rem);
+            font-weight: 400;
+            font-style: italic;
+            margin: 0 0 calc(var(--ru) * 2rem);
+        }
+
+        strong {
+            font-weight: 500;
+        }
+        h2 {
+            display: none;
+        }
+    }
+
+    & .layout-spacer {
+        display: none;
+    }
+
+    & .intro-header {
+        order: 2;
+    }
+
+    &:after {
+        content: '';
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 10rem;
+        pointer-events: none;
+        background: linear-gradient(180deg, transparent, var(--color-bg) 100%);
+    }
+
+    @media all and (min-width: $screen-narrow) {
+        &__header {
+            h1 {
+                font-size: 8rem;
+                line-height: calc(var(--ru) * 6rem);
+            }
+        }
+    }
+
+    /* TODO: replace with vars */
+    @media all and (min-width: $screen-mid) {
+        align-items: stretch;
+        height: calc(100vh - 2 * var(--page-margin));
+        overflow: hidden;
+
+        &__decor {
+            display: block;
+            width: calc(100vw - 60vw - 2 * var(--page-margin));
+            height: calc(100% - 30vh);
+            position: absolute;
+            user-select: none;
+            right: var(--page-margin);
+            bottom: calc(var(--page-margin) - 5%);
+            background: url(/images/bg.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+
+        &__header {
+            order: 1;
+            text-align: left;
+            position: relative;
+
+            h1 {
+                font-size: 8vw;
+                font-weight: 500;
+                margin: 0 0 0.25em;
+                line-height: 1em;
+                br {
+                    display: none;
+                }
+            }
+
+            h2 {
+                opacity: 0.5;
+                display: block;
+                font-size: 2vw;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                top: 7vw;
+                left: 36.5vw;
+                font-weight: 200;
+                font-style: italic;
+            }
+        }
+
+        & .intro-header {
+            order: 4;
+            position: absolute;
+            bottom: var(--page-margin);
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+}
+
+.intro-content {
+    order: 3;
+
+    a {
+        font-weight: 600;
+        font-style: italic;
+        color: var(--color-text);
+
+        &:hover,
+        &:active {
+            color: var(--color-link);
+        }
+    }
+
+    p {
+        font-size: 2rem;
+        margin: calc(var(--ru) * 2rem) 0;
+        line-height: calc(var(--ru) * 2rem);
+
+        &:last-child br {
+            display: none;
+        }
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin: calc(var(--ru) * 2rem) 0;
+        line-height: calc(var(--ru) * 2rem);
+        font-weight: inherit;
+        font-style: italic;
+    }
+
+    hr {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        border: none;
+        font-size: 3rem;
+        line-height: calc(var(--ru) * 3rem);
+        height: calc(var(--ru) * 3rem);
+        &::after {
+            content: '❦';
+        }
+    }
+
+    @media all and (min-width: $screen-narrow) {
+        p {
+            font-size: 2.5rem;
+            line-height: calc(var(--ru) * 2.5rem);
+        }
+
+        h2 {
+            font-size: 4rem;
+            margin: calc(var(--ru) * 2rem) 0;
+            line-height: calc(var(--ru) * 3rem);
+            font-weight: inherit;
+            font-style: italic;
+        }
+    }
+
+    @media all and (min-width: $screen-mid) {
+        order: 2;
+        max-width: 60vw;
+
+        h2 {
+            font-size: 3.5vw;
+            font-weight: inherit;
+            font-style: italic;
+            line-height: 1;
+        }
+
+        p {
+            font-size: 1.75vw;
+            line-height: var(--ru);
+            margin: calc(var(--ru) * 0.5em) 0;
+        }
+
+        p:last-child br {
+            display: block;
+        }
+
+        hr {
+            display: none;
+        }
+    }
+}

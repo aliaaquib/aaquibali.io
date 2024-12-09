@@ -1,0 +1,22 @@
+{
+    "[markdown]": {
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 70,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
+        "editor.fontSize": 15
+    },
+    "[nunjucks]": {
+        "editor.formatOnSave": false
+    },
+    "files.associations": {
+        "*.css": "postcss",
+        "*.md": "nunjucks"
+    },
+    "emmet.includeLanguages": {
+        "postcss": "css"
+    }
+}
