@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Aaquib Ali</title>
+    <subtitle>Aaquib Ali i&#39;m just a random guy who loves to code, write, and do all sorts of random stuff. Click to find out more.</subtitle>
+    <link href="https://aaquibali.io/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://aaquibali.io" rel="alternate" type="text/html"/>
+    <author>
+        <name></name>
+    </author>
+    
+        <updated>2024-12-09T00:00:00Z</updated>
+    
+    <id>https://aaquibali.io/</id>
+        
+        <entry>
+            <title>I’m a lazy dev!</title>
+            <link href="https://aaquibali.io/posts/I%E2%80%99m-a-lazy-dev!/"/>
+            <updated>2024-12-09T00:00:00Z</updated>
+            <id>https://aaquibali.io/posts/I%E2%80%99m-a-lazy-dev!/</id>
+            <content type="html">
+                <![CDATA[
+                <p>Yes I’m a lazy dev! I am a lazy dev. I admit it. I don’t like to write code that is repetitive, boring, or unnecessary. I prefer to automate, reuse, or optimize my tasks as much as possible. I believe that being lazy is not a bad thing, but a sign of intelligence and creativity.</p>
+<p>Some people may think that being a lazy dev means being unproductive, irresponsible, or sloppy. They may accuse me of cutting corners, skipping tests, or ignoring standards. They may say that I don’t care about quality, performance, or security. They may assume that I don’t have passion, motivation, or ambition.</p>
+<p>Being a lazy dev means that I use the best tools and practices available to me. It means that I leverage the power of existing libraries, frameworks, and platforms to avoid reinventing the wheel. It means that I follow the principles of DRY (Don’t Repeat Yourself), KISS (Keep It Simple, Stupid), and YAGNI (You Ain’t Gonna Need It) to write clean, concise, and maintainable code. It means that I apply the concepts of refactoring, testing, and debugging to ensure the quality and reliability of my code.</p>
+<p>Being a lazy dev means that I embrace the challenges and opportunities of new technologies and trends. It means that I learn from the best sources and experts in the field, and I keep myself updated with the latest developments and innovations. It means that I experiment with different ideas and solutions, and I try to find the best fit for my needs and goals. It means that I share my knowledge and experience with others, and I contribute to the community.</p>
+<p>Being a lazy dev is not something to be ashamed of. It is something to be proud of. It is a mindset that drives me to do more with less, to do better with less, and to do smarter with less. It is a philosophy that guides me to achieve excellence in my work. I am a lazy dev. And you should be one too.</p>
+<p><picture><source type="image/avif" srcset="https://aaquibali.io/images/opt/WCJy-UZZfv-600.avif 600w, https://aaquibali.io/images/opt/WCJy-UZZfv-1200.avif 1200w" sizes="(min-width: 1200px) 60rem, 100vw" /><source type="image/webp" srcset="https://aaquibali.io/images/opt/WCJy-UZZfv-600.webp 600w, https://aaquibali.io/images/opt/WCJy-UZZfv-1200.webp 1200w" sizes="(min-width: 1200px) 60rem, 100vw" /><source type="image/jpeg" srcset="https://aaquibali.io/images/opt/WCJy-UZZfv-600.jpeg 600w, https://aaquibali.io/images/opt/WCJy-UZZfv-1200.jpeg 1200w" sizes="(min-width: 1200px) 60rem, 100vw" /><img alt="" loading="lazy" decoding="async" src="https://aaquibali.io/images/opt/WCJy-UZZfv-600.jpeg" width="1200" height="133" /></picture>
+<br />
+<br /></p>
+
+            ]]>
+            </content>
+        </entry>
+        
+        
+        <entry>
+            <title>My Journey in Sudan’s Technocrats</title>
+            <link href="https://aaquibali.io/posts/my-journey-in-sudan&amp;#39;s-technocrats/"/>
+            <updated>2022-05-23T00:00:00Z</updated>
+            <id>https://aaquibali.io/posts/my-journey-in-sudan&amp;#39;s-technocrats/</id>
+            <content type="html">
+                <![CDATA[
+                <style>
+    .post {
+        --pickle: #959e00;
+    }
+    .emotive-gpt-3 {
+        padding: 0;
+        margin: 0;
+    }
+    @media all and (min-width: 430px) {
+        .emotive-gpt-3 { padding-left: 3rem; }
+    }
+    .emotive-gpt-3 p{
+        font-style: italic;
+        font-size: 1.75rem;
+    }
+    .emotive-gpt-3-legend {
+        font-style: italic;
+    }
+    .emotive-gpt-3 em,
+    .emotive-gpt-3-legend em {
+        font-weight: 600;
+        color: var(--pickle);
+    }
+    :is(.emotive-gpt-3 em, .emotive-gpt-3-legend em):before {
+        /* content: '🥒 '; */
+    }
+    .emotive-rant{
+        transition: 1s all;
+        opacity: 1;
+    }
+    .emotive-rant--hidden{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .emotive-rant__cta{
+        appearance: none;
+        background: none;
+        border: none;
+        color: var(--color-text);
+        font-weight: 600;
+        cursor: pointer;
+    font-style: italic;
+    text-decoration: underline;
+    }
+    .emotive-rant__cta:hover,
+    .emotive-rant__cta:active { color: var(--color-link); }
+    @media all and (min-width: 700px) {
+        .post__content .post__quote--pickled {
+            position: relative;
+            margin-left: 0;
+            padding-left: 11rem;
+        }
+        .post__content .post__quote--pickled:after{
+            content: '';
+            background-position: 0 bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url('/images/emotive-conjugation/quote-bg.png');
+            bottom: 0;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            width: 10rem;
+            z-index: -1;
+        }
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const el = document.querySelector('.emotive-rant__cta')
+       el.onclick=()=>{
+           el.remove()
+           document.querySelector('.emotive-rant').classList.remove('emotive-rant--hidden')
+       } 
+    })
+</script>
+<blockquote>
+<p>When I was in High School , I took part in auditions of various co-curricular activities and other activities also.</p>
+</blockquote>
+<p>ne day one of my friend told me about a Bootcamp on Web-Development which is organized by Sudan’s Technocrats , He told me to register in the Bootcamp. He also told me that they select only 100 students out of all the registration they get. When i I hear that i was slightly upstate , finally i register in the program.</p>
+<p>On 27th April, There was an email notification — “Congratulations Web Development Scholarship Winner || Sudan’s Technocrats Foundation”. The feelings at that moment can’t be expressed in words. It was really unexpected. I read the email it has some general information regarding classes , task , projects and certificate too.</p>
+<p><img loading="lazy" src="https://aaquibali.io/images/emotive-conjugation/reasons-pickles-were-forgotten.png" alt="A comic strip describing the reasons why the main character forgot to buy pickles for dinner. &quot;I was busy&quot; says the main character. &quot;You were distracted&quot;. &quot;He is just an idiot&quot;" /></p>
+<p>This was the first opportunity, I got and that I executed. The Bootcamp began from 2nd May ~ an introduction ceremony session held with our mentors( Smile Gupta , Mohit , Hack The Mountain and so on. The Bootcamp was about 15–20 days long.</p>
+<p>| In this Bootcamp we will learn about basics of HTML , CSS and JAVASCRIPT .</p>
+<p>The first class of Bootcamp is about basic of HTML. Our Mentor ( Smile Gupta mam ) made us familiar with that. They also told about various platform for practices suck as Codepen , replit and many more…</p>
+<p>| The part that took me in trouble was JavaScript , but i overcome this with continuously practicing and completing the task.</p>
+<h3>Examples improved</h3>
+<blockquote>
+<p>Finally the day come when we have to submit our final projects.</p>
+</blockquote>
+<p>Our mentor Smile Gupta mam give as references for projects. I was slightly trouble in selecting the final project - after taking time on each and every references which was given by our mentor , finally i select a project based on a music player . I submit my project on Git-hub .</p>
+<p>Overall, it was a great experience. Hope , such more opportunities will come…🙃</p>
+<p>See you soon!</p>
+<hr />
+
+            ]]>
+            </content>
+        </entry>
+        
+        
+        <entry>
+            <title>How to learn Programming!</title>
+            <link href="https://aaquibali.io/posts/How-to-learn-Programming/"/>
+            <updated>2021-06-09T00:00:00Z</updated>
+            <id>https://aaquibali.io/posts/How-to-learn-Programming/</id>
+            <content type="html">
+                <![CDATA[
+                <style>
+.post__title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+</style>
+<p>Programming is an art that cannot be learned in a year or so. You need to practice it continuously and regularly to be pro at it. But, before becoming a pro, some basic fundamentals and foundations are important. This guide will tell you about some of the efficient practices to use while programming.</p>
+<p>Sounds exciting? Let’s get right into it!</p>
+<p><b>1. What is programming?</b></p>
+<p>I won’t spend too much time here since if you’re reading this, you likely have a pretty solid idea of what programming and coding is.</p>
+<p>It’s just a formalized version of the logic, in the vocabulary and syntax of the language that a machine can interpret. “I want to see all the rows in this database table” becomes SELECT * FROM table. It’s the implementation level of tech. So, to get better at programming, you’ll be writing a lot of code!</p>
+<p><b>2. Why to learn Programming?</b></p>
+<p>If you came up with the answer simply by reading this section’s headline, that’s a really good sign. One of the biggest factors why people don’t follow through on learning any skill is because their “why” is either non-existent or ambiguous.</p>
+<p>Know what’s your why. Major ideas for learning programming are: Get a better job, be happy, have an impact, become financially secure, discover new hobbies or passions, etc. Whatever you come up with, drill down on the details. Remember, the clearer your answer, the higher your motivation will be for learning programming or any other skill.</p>
+<p><b>3. How to practice Programming? </b></p>
+<p>Some skills can have a higher ratio of knowledge v/s application. This is NOT the case with programming. Programming is one of the skills where you need to practice a lot more than to focus on the theory.</p>
+<p>I will recommend you to spend at least 80% of your time writing code and 20% learning the theory. As you learn more and more, I’d suggest increasing the practice ratio. In short, <b>every minute you spend trying to understand the concepts, you should spend about 5x more time on putting it into practice.</b> That’s how the concepts will sink into your brain and start making sense; not by re-reading it multiple times.</p>
+<p><b>Remember: </b> It’s not just about typing out code. It’s also about fixing bugs, maintenance, security, testing, user experience, architecture, systems, databases, and all sorts of other things. It gets complicated. Learning to code is just the tip of the iceberg.</p>
+<p>It’s not an easy ride, to begin with, programming, especially if you haven’t had much practice with other logical skills in the past. That’s why being good at math is often a requirement to get into a computer programming program. The math you’ll use in programming is rarely that complex, but the logic you learned by applying math greatly accelerates your programming abilities.</p>
+<p><b>4. How to break the sessions?</b>
+This greatly depends on your situation. Some of you will be able to do proficient enough with a full month of practice others can’t dedicate much time at all. For most skills, I recommend practicing for at least 15 minutes per day. But for programming, that’s not enough. For programming, if you practice for 30 minutes every day, that’s 3.5 hours per week or 14 hours per month.</p>
+<p>While everything is fresh in your mind, things will seem easy, but if you stop practicing for even just a month, you’ll lose around 60 percent of what you previously learned. The golden rule is spaced learning and repetition. And you should recall what you learned regularly enough.</p>
+<p><b>5. When to practice Programming?</b></p>
+<p>Just one-word answer <b>— “Every day” </b></p>
+<p>The more you can make your skill practice a habit, the easier it will be to follow through and get results. It’s always more motivating to focus for 30 minutes, for example, than to focus on writing a complex piece of code. But since programming is a complex skill, make sure to practice when your mind is sharpest.</p>
+<p>While most programmers proclaim to be night owls, research shows that most people have their minds sharpest shortly after waking up. If you’re unsure when’s the right time for you, I’d start with the early morning. If it doesn’t work right away, please don’t give up just try a different time. New habits take time to form.</p>
+<p>Practice using different languages, frameworks and IDEs. Try pair  programming. Do functional programming, OOP, component-based programming. Try scripting or ML. Code in your room, kitchen, at cafes, school, outside, etc. Try with different types of music. There’s an infinite combination of things you can do!</p>
+<p><b> 6. Basic concepts of Programming </b></p>
+<p>Truth be told, the skill of programming is too broad. If you want to learn “programming”, you’ll lose motivation quickly. It’s overwhelming beyond imagination to view it as a single entity! As such, we’ll break it apart into the following sub-skills:</p>
+<p><b>  7. Good programming practices</b></p>
+<p>The basics above help you get started, but you won’t be a very good programmer yet with those. Below, I’ll explain some ways to go from noob to good in a short while. This section is the most complex one, so if you can’t follow along currently, don’t forget to bookmark to revisit it later when your mind is sharpest!</p>
+<p><b>  8. Getting stuck </b><br />
+Being stuck somewhere is a skill in itself because without committing any error, you won’t learn it. As you keep learning, you’ll frequently come across stackoverflow.com or similar websites. When you Google how to do something in programming, chances are someone else had the same issue as you did and someone else gave a clear answer and how to fix it.</p>
+<p>There’s no shame in not knowing every answer. There’s simply too much to programming to know everything. In the programming world, you’re always expected to be resourceful and figure out answers by yourself first — which is a great way to learn anything. If you can’t figure it out after trying, then is the time to seek out help from others, either in person or by asking on Stack Overflow.</p>
+<p><b>  9. Final Tips </b></p>
+<p>Compare different codes. Try to understand which one is more efficient in terms of complexity, readability, and generalization. Nothing is final. Always, try to make a more efficient code than your earlier version. Don’t just learn to code, learn how to become a developer. Learn to tackle the bugs.</p>
+<hr />
+<p>* <b>Relax.</b> It’s not a race, there’s no rush. You’re not <i>“falling behind” </i>anyone else by not knowing things if you’ve only just started. You wouldn’t write a novel when you’ve only just finished learning the alphabet. So, <b>just enjoy it.</b></p>
+
+            ]]>
+            </content>
+        </entry>
+        
+        
+        <entry>
+            <title>A complete Beginner’s guide — Web 3.0</title>
+            <link href="https://aaquibali.io/posts/a-complete%20-beginner%E2%80%99s-guide-web-3.0/05-07-20/"/>
+            <updated>2020-07-05T00:00:00Z</updated>
+            <id>https://aaquibali.io/posts/a-complete%20-beginner%E2%80%99s-guide-web-3.0/05-07-20/</id>
+            <content type="html">
+                <![CDATA[
+                <p>In this article, you will learn about web 3.0, its previous version, and many more.</p>
+<blockquote>
+<p>❝On the web we all become small-town visitors lost in the big city.❞- Alison Gopnik</p>
+</blockquote>
+<p>You have all heard about Web 3.0 &amp; you all are curious to know about it. You all might have lots of questions &amp; curious to know about Web3.0. So, be patient and read the complete article. I hope all your doubts will be cleared.</p>
+<p>Before getting into Web 3.0 we will take a look at the pervious version of the web and what are there features. So, we have a better command and understanding about Web 3.0.</p>
+<h2>Web 1.0:-</h2>
+<p>Web 1.0 is the first stage/phase of the World Wide Web evolution. The web, also known as the World Wide Web, is the foundational layer for how the internet is used, providing website and application services.</p>
+<p>It was created as a hyperlinked information system. It had a huge library of data sourced on a screen from computer systems in the network for users to browse.</p>
+<p>This phase was dominated by static websites, which were used to display some information &amp; they have little interaction capabilities.</p>
+<p>At this stage, there were only a few content creators &amp; the majority of users were content consumers. An example of a web 1.0 website is CNN.</p>
+<p><code>Some Features of Web 1.0: —</code></p>
+<ul>
+<li>Read-only web.</li>
+<li>Static web pages.</li>
+<li>One-way publishing medium.</li>
+<li>Page hyperlinking and bookmarking.</li>
+<li>Content served from the server’s file system.</li>
+<li>Only text mails could be written and sent — no option to attach images.</li>
+<li>Use of frames and tables place and align the elements on a webpage.</li>
+</ul>
+<blockquote>
+<p>❝The Web makes people hypocritical, it encourage to take pseudonyms.❞</p>
+</blockquote>
+<h2>Web 2.0: —</h2>
+<p>Web 2.0 is the first stage/phase of the World Wide Web evolution or participative Social Web. It started coming in the late 1990s. It is an enhanced version of Web 1.0.</p>
+<p>It does not refer to a modification to any technical specification but to how web pages are designed and used.</p>
+<p>The factor differentiating Web 2.0 &amp; Web 1.0 is that Web 2.0 allows users to interact and collaborate. It contains several online tools and platforms where people share their perspectives, opinions, thoughts, and experiences.</p>
+<p>Web 2.0 applications tend to interact much more with the end-user. As such, the end-user is not only a user of the application but also a participant with these 8 tools mentioned below:</p>
+<ul>
+<li>podcasting</li>
+<li>Blogging</li>
+<li>Tagging</li>
+<li>Curating with RSS</li>
+<li>Social bookmarking</li>
+<li>Social networking</li>
+<li>Social media</li>
+<li>Web content voting</li>
+</ul>
+<blockquote>
+<p>❝The Domain Name Server (DNS) is the Achilles heel of the Web. The important thing is that it’s managed responsibly.❞- Tim Berners-Lee</p>
+</blockquote>
+<p><code>Some features of Web 2.0: —</code></p>
+<ul>
+<li>Read-write web.</li>
+<li>Also known as participative web and social web.</li>
+<li>Dynamic content with high responsiveness to user inputs.</li>
+<li>User-generated content.</li>
+<li>Interoperability for end-users.</li>
+<li>User-friendly.</li>
+</ul>
+<p>Know you have the basic knowledge about Web 1.0 &amp; WEB 2.0. However, for better understanding, let’s see the difference between Web 1.0 &amp; Web 2.0.</p>
+<p>Now you all have a good understanding of the evolution of the old version of the Web. Now let’s understand what the hell is Web 3.0.</p>
+<h2>Web 3. 0: —</h2>
+<p>It is the third stage of the world wide web, also referred to as the read-write-execute, which also refers to the future of the web. In this era of the web Artificial Intelligence (AI), Machine Learning (ML) helps to understand the data the same way people do.</p>
+<p>The Web 3.0 applications are decentralized peer-to-peer networks like Ethereum and IPFS. These networks are developed, operated, and maintained by their users rather than by a business. As a result, they self-organize and don’t have a single point of failure.</p>
+<p>You’ll notice that cryptocurrencies are frequently mentioned when you hear about Web3. This is because many of these protocols include cryptocurrencies. Anyone who wishes to help create, control, or improve one of the projects is given a cash incentive (tokens).</p>
+<p>These protocols frequently provide a wide range of services, including computation, storage, bandwidth, identification, hosting, and other online services previously supplied by cloud providers.</p>
+<h3>What makes Web 3.0 so unique?</h3>
+<p>Web 3.0 is unique because it solves the serious issues that arise in Web 2.0, like gathering personal data by private networks, which are sold to marketers or stolen by hackers.</p>
+<p>It is more focused on using technologies like machine learning and AI to provide relevant content for each user instead of just the content other end users have provided.</p>
+<p>Web 3.0 is decentralized, which means a single organization does not control it, and the decentralized applications (apps) created on top of it are open.</p>
+<h3>Properties of Web 3.0</h3>
+<p>Many properties define it. I’ll only be mentioning three key characteristics that can help us determine Web 3.0:-</p>
+<p><code>1. Semantic Web</code></p>
+<p>One of the key elements of Web 3.0 is the Semantic Web. It enhances online technologies by allowing users to create, share, and connect content via search and analysis based on the ability to understand the meaning of words rather than keywords or numbers.</p>
+<p><code>2. 3D Graphics</code></p>
+<p>3D Graphics is being used widely in websites and services in Web 3.0, such as online games, e-commerce, and portfolio website.</p>
+<p><code>3. Artificial Intelligence</code></p>
+<p>Semantic Web and Artificial Intelligence are the two cornerstones of web 3.0. By combining this capacity with natural language processing, computers can understand information on a human-like level to provide faster and more relevant results. In doing so, they become more intelligent and better satisfy users' needs.</p>
+<p><code>There are many more properties other than those are: -</code></p>
+<ul>
+<li>Connectivity</li>
+<li>Ubiquity</li>
+<li>Blockchain</li>
+<li>Decentralized</li>
+<li>Edge Computing</li>
+</ul>
+<p><code>How Web 3.0 Can Change Our Lives</code></p>
+<p>Web 3.0 can change lives by adding semantics and machine learning, which is an evolution in which computers can understand the meaning of information behind it. As a result, they can learn what you are interested in, help you find what you want faster, and understand the relationship between things.</p>
+<p>Web 3.0 is no longer a dream but a reality (at least in many cases). In fact, it is cognitive technology like that of experts. An AI that makes this all possible. Understanding language is integral to so many facets of the Web. By making semantics and natural language processing central components to it, the possibilities are endless.</p>
+<p>There are plenty of resources available to help you get started and learn more about this exciting new world. So go forth and explore, and join our community which aims to bridging the gap between beginner’s and professionals.</p>
+
+            ]]>
+            </content>
+        </entry>
+        </feed>

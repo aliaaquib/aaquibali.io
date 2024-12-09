@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width,initial-scale=1" name="viewport"><meta name="theme-color" content="#fff4f4"><link href="/css/styles.css" rel="stylesheet"><link href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet"><link type="application/atom+xml" rel="alternate" href="https://aaquibali.io/feed.xml" title="Aaquib Ali"><meta property="og:description" content="Aaquib Ali i&#39;m just a random guy who loves to code, write, and do all sorts of random stuff. Click to find out more.
+"><meta property="og:title" content="Another post page · Aaquib Ali"><meta property="og:site_name" content="aaquibali.io"><meta property="og:url" content="https://aaquibali.io/posts/another-post/"><meta property="og:image" content="https://sonnet.io/images/me.jpg"><meta property="og:image:width" content="400"><meta property="og:image:height" content="400"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@imaaquibali"><meta name="twitter:creator" content="@imaaquibali"><meta name="twitter:title" content="Another post page · Aaquib Ali"><meta name="twitter:description" content="Aaquib Ali i&#39;m just a random guy who loves to code, write, and do all sorts of random stuff. Click to find out more.
+"><meta name="twitter:image" content="https://sonnet.io/images/me.jpg"><title>Another post page · Aaquib Ali</title><meta name="description" content="Aaquib Ali i&#39;m just a random guy who loves to code, write, and do all sorts of random stuff. Click to find out more.
+"><link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png"><link rel="manifest" href="/images/favicons/site.webmanifest"><meta name="msapplication-config" content="/images/favicons/browserconfig.xml"><meta name="msapplication-TileColor" content="#ffffff"><meta name="theme-color" content="#ffffff"><script>document.addEventListener("DOMContentLoaded", () => {
+        const remoteLinks = document.querySelectorAll('a[href^="//"], a[href^="http"]');
+
+        [...remoteLinks].forEach((anchor) => {
+          anchor.target = "_blank";
+        });
+      });</script></head><body><main class="wrapper"><header class="blog-header" id="blog-header"><a href="/" class="blog-header__logo"></a><nav><a href="/" class="blog-header__logo"></a><ul id="menu" aria-labelledby="show-menu-button"><li><a href="/blog">Writing</a></li><li><a href="/projects">Projects</a></li><li><a href="/notes">Notes</a></li><li><a href="">Work with me</a></li><li><a href="/posts/hi">Say&nbsp;hi</a></li></ul><button class="hide-menu" onclick='document.dispatchEvent(new CustomEvent("menu:close"))' arial-label="close menu"></button></nav><button class="show-menu" id="show-menu-button" arial-label="show menu" aria-expanded="false" onclick='document.dispatchEvent(new CustomEvent("menu:open"))'>menu</button></header><script type="module">[...document.querySelectorAll('#menu a')]
+    .forEach( el => {
+      el.addEventListener('click', () =>{
+        if(el.getAttribute('href').startsWith('http')) {
+          document.dispatchEvent(new CustomEvent('menu:close'))
+        }
+      })
+    } 
+  )
+
+  document.addEventListener('menu:close', () => {
+    document
+      .querySelector('#blog-header')
+      .classList
+      .remove('is-visible');
+
+    document.querySelector('#show-menu-button').setAttribute('aria-expanded', 'false')
+
+  })
+
+  document.addEventListener('menu:open', () => {
+    document
+      .querySelector('#blog-header')
+      .classList
+      .add('is-visible')
+
+      document.querySelector('#show-menu-button').setAttribute('aria-expanded', 'true')
+  })</script><div class="container container--full"><article class="post"><header class="post__header"><time class="post__time" datetime="Wed Mar 28 2018 06:00:00 GMT+0600 (Kyrgyzstan Time)">Mar 28, 2018</time><h1 class="post__title">Another post page</h1></header><div class="post__content"><p>Another simple page.</p><p>Since all post pages are tagged <code>post</code> they form a collection and can be easily inspected and iterated over. See that on the <a href="/">home page</a></p></div></article><aside class="sharing">Did you enjoy the article? Then **subscribe to my mailing list** to receive more content like this:<div class="sharing__email"><script async data-uid="af1fc0f370" src="https://rafal.ck.page/af1fc0f370/index.js"></script></div>You can also <a href="https://rafal.ck.page/products/tip">buy me a coffee</a>, <a href="/feed.xml">subscribe via RSS</a>, or <a href="/posts/hi">say&nbsp;hi</a>.</aside><nav class="post__nav"><a href="/blog">Go back to all posts</a></nav></div></main><script async defer="defer" data-domains="www.aaquibali.io,aaquibali.io" data-website-id="fbde7cb0-26f1-44d4-ba49-2423c13314a6" src="https://aaquibali-events.vercel.app"></script><script>document.addEventListener('click', function(event) {
+            let target = event.target;
+            while (target && target !== document) {
+                if (target.hasAttribute('data-sonnet-event')) {
+                    const eventName = target.getAttribute('data-sonnet-event');
+                    umami.trackEvent(eventName);
+                    break;
+                }
+                target = target.parentElement;
+            }
+        });</script><script>__sonnet_build_time="Mon Dec 09 2024 22:29:42 GMT+0600 (Kyrgyzstan Time)"</script><a rel="me" hidden href="https://mastodon.cloud/@raf">Mastodon</a></body></html>

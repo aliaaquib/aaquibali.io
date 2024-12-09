@@ -1,0 +1,541 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;display=swap" rel="stylesheet"><style>.wuoje-8iz button{display:inline-block;background:none transparent;color:inherit;appearance:none;border:none;border-bottom:2px dashed;padding:0;margin:0 0 0 .5ch;cursor:pointer;font-weight:500}
+.w4yhfjcxk hr{padding:0;margin:0;text-align:center;border:none;font-size:3rem;line-height:calc(var(--ru)*3rem);height:calc(var(--ru)*3rem)}.w4yhfjcxk hr::after{content:"❦"}
+article {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        margin: calc(var(--ru) * 1rem) auto 0;
+        max-width: 45rem;
+    }
+
+    header {
+        font-size: 2.5rem;
+        line-height: 1;
+        font-style: italic;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 50rem;
+    }
+
+    header p {
+        text-wrap: balance;
+    }
+    
+    header picture {
+        display: flex;
+        justify-content: center;
+        max-width: 35rem;
+    }
+
+    header img {
+        max-width: 70%;
+        height: auto;
+        margin: 0 0 1rem;
+        ;
+    }
+
+    input {
+        appearance: none;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid var(--color-text);
+    }
+
+    a {
+        color: var(--color-text);
+        font-weight: 600;
+        font-style: italic;
+
+
+        &:hover,
+        &:active {
+            color: var(--color-link);
+        }
+    }
+
+
+    ol,
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1em;
+    }
+
+    ul {
+        list-style: none;
+
+    }
+
+    ul li {
+        position: relative;
+        --w: 1.4rem;
+
+        &::before {
+            display: inline-block;
+            width: var(--w);
+            content: '–';
+            margin-left: calc(var(--w) * -1);
+            opacity: 0.5;
+            position: relative;
+            top: -.05em;
+        }
+    }
+
+    li {
+        margin: 0 0 .5em;
+    }
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+/* $screen-narrow: 430px;
+$screen-mid: 800px;
+$screen-wide: 1200px; */
+
+:root {
+    --font-size: 12px;
+    --ru: 1.5;
+    --font-body: 'EB Garamond', serif;
+    --font-secondary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+
+    --page-margin: calc(2rem * var(--ru));
+    --page-margin-mid: calc(3rem * var(--ru));
+
+    --color-bg: #fff4f4;
+    --color-text: #3e3e3e;
+    --color-text-fade: #3e3e3e88;
+    --color-link: #e00202;
+
+    @media all and (min-width: 800px) {
+        --page-margin: var(--page-margin-mid);
+        --font-size: var(--font-size-mid);
+    }
+}
+
+html {
+    font-size: var(--font-size);
+    line-height: var(--ru);
+    background-color: var(--color-bg);
+}
+
+body {
+    font-family: var(--font-body);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    /* background-color: red; */
+}
+
+main {
+    min-height: 100vh;
+}
+
+.wrapper {
+    padding: var(--page-margin);
+    @media all and (min-width: 400px) {
+        --page-margin: var(--page-margin-mid);
+    }
+}
+
+::selection {
+    color: var(--color-bg);
+    background: var(--color-text);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}</style><meta property="og:description" content="Aaquib Ali i'm just a random guy who loves to code, write, and do all sorts of random stuff. Click to find out more.
+"><meta property="og:title" content="Aaquib Ali"><meta property="og:site_name" content="aaquibali.io"><meta property="og:url" content="https://aaquibali.io/now/"><meta property="og:image" content="https://sonnet.io/images/me.jpg"><meta property="og:image:width" content="400"><meta property="og:image:height" content="400"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@imaaquibali"><meta name="twitter:creator" content="@imaaquibali"><meta name="twitter:title" content="Aaquib Ali"><meta name="twitter:description" content="Aaquib Ali i'm just a random guy who loves to code, write, and do all sorts of random stuff. Click to find out more.
+"><meta name="twitter:image" content="https://sonnet.io/images/me.jpg"><title>Aaquib Ali</title><meta name="description" content="Aaquib Ali i'm just a random guy who loves to code, write, and do all sorts of random stuff. Click to find out more.
+"><link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png"><link rel="manifest" href="/images/favicons/site.webmanifest"><meta name="msapplication-config" content="/images/favicons/browserconfig.xml"><meta name="msapplication-TileColor" content="#ffffff"><meta name="theme-color" content="#ffffff"><script>document.addEventListener("DOMContentLoaded", () => {
+            const remoteLinks = document.querySelectorAll('a[href^="//"], a[href^="http"]');
+
+            [...remoteLinks].forEach((anchor) => {
+                anchor.target = "_blank";
+            });
+        });</script></head><body><div class="wrapper"><header><p><picture><source type="image/avif" srcset="/images/opt/VuE_Sp5S6i-600.avif 600w" sizes="(min-width: 1200px) 60rem, 100vw"><source type="image/webp" srcset="/images/opt/VuE_Sp5S6i-600.webp 600w" sizes="(min-width: 1200px) 60rem, 100vw"><img alt="A simple round face with a neutral expression. It looks a bit like a cheap 1960s
+        Soviet cartoon" loading="lazy" decoding="async" src="/images/opt/VuE_Sp5S6i-600.jpeg" width="600" height="578"></picture></p><p>Hi<now-selector class="wuoje-8iz"><button data-options="friend,wizard,fish">🔄</button></now-selector>, I haven't seen you since<now-selector class="wuoje-8iz"><button data-options="the last month, the last year, before the Great War, before the Great Mushroom War">🔄</button></now-selector>! Here's what I've been up to:</p></header><article><p>tps://en.wikipedia.org/wiki/The_Dawn_of_Everything) and listening to <a href="https://www.youtube.com/playlist?list=OLAK5uy_l37p_FhiiP4UPjsCTRdcVI-TjPvSptP84">Eyes Like the Sky</a></p></article><page-separator class="w4yhfjcxk"><hr></page-separator></div><script async defer="defer" data-domains="www.sonnet.io,sonnet.io" data-website-id="fbde7cb0-26f1-44d4-ba49-2423c13314a6" src="https://sonnet-events.vercel.app/umami.js"></script><script>customElements.define('now-selector', class extends HTMLElement {
+        connectedCallback() {
+            let state = {
+                optionIndex: 0
+            }
+            const button  = this.querySelector('button')
+            const options = button
+                .dataset
+                .options
+                .split(',')
+                .map( _=> _.trim())
+
+            const output = button
+            button.onclick=() => {
+                state.optionIndex >= options.length - 1
+                    ? state.optionIndex= 0
+                    : state.optionIndex++
+                
+                    render()
+            }
+
+            const render = () => {
+                output.innerText = options[state.optionIndex]
+            }
+
+            render()
+
+
+        }
+    })
+__sonnet_build_time = "Mon Dec 09 2024 22:29:42 GMT+0600 (Kyrgyzstan Time)"</script></body></html>

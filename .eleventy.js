@@ -63,7 +63,7 @@ module.exports = function (config) {
     return {
         dir: {
             input: 'src/site',
-            output: 'dist',
+            output: '_site',
         },
         templateFormats: ['njk', 'md', '11ty.js'],
         htmlTemplateEngine: 'njk',
