@@ -3,17 +3,36 @@
  */
 const favourites = [
     {
-        title: 'Sit.',
-        heroURL: './hero-sit.png',
-        demoURL: 'https://sit.sonnet.io',
+        title: 'Relax.',
+        heroURL: './hero-relax.png',
+        demoURL: 'https://relaxnow.vercel.app',
         isFavourite: true,
         date: '2022-12-25',
         content: `
-Sit down and do *nothing*.
+Relax, sit, and feel *better*.
 
-We spend so much time building things that steal attention &amp; extract value from users. [Sit.](https://sit.sonnet.io) does the opposite: it gives you back your time. 
+We spend so much time creating things that take your attention and drain your energy. 
 
-Please share with a friend who needs to sit the fuck down or enjoy the experience yourself. 
+[Relax.](https://relaxnow.vercel.app) is different — it’s designed to give you back your time and help you unwind. Take a break, clear your mind, and enjoy the moment.
+
+Please share it with someone who needs to slow down or experience it for yourself. You deserve it.
+        `,
+    },
+
+    {
+        title: 'Days.',
+        heroURL: './hero-days.png',
+        demoURL: 'https://relaxnow.vercel.app',
+        isFavourite: true,
+        date: '2022-12-25',
+        content: `
+Relax, sit, and feel *better*.
+
+We spend so much time creating things that take your attention and drain your energy. 
+
+[Relax.](https://relaxnow.vercel.app) is different — it’s designed to give you back your time and help you unwind. Take a break, clear your mind, and enjoy the moment.
+
+Please share it with someone who needs to slow down or experience it for yourself. You deserve it.
         `,
     }
 ]
